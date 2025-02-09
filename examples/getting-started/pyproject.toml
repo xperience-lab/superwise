@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hitl-agent"
+version = "0.1.0"
+description = ""
+authors = ["Yash Agarwal <yagarwal1307@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain-ollama = "^0.2.3"
+python-dotenv = "^1.0.1"
+trysuperwise = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

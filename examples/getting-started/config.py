@@ -1,0 +1,9 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+APPROVAL_TIMEOUT_DURATION_SECONDS=100 
+BACKEND_URL=os.getenv('BACKEND_URL')
+SUPERWISE_PROJECT_ID=os.getenv('SUPERWISE_PROJECT_ID')
+SUPWERWISE_API_KEY=os.getenv('SUPWERWISE_API_KEY')
